@@ -20,7 +20,7 @@ Calculates Elo rating.
 
 `npm test`
 
-### Standard Style & Unit Tests & Coverage
+### Unit Tests & Coverage
 
 `npm run cover`
 
