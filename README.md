@@ -8,7 +8,7 @@ Calculates Elo rating.
 
 ## Node Repository
 
-[https://www.npmjs.com/package/@pelevesque/elo](https://www.npmjs.com/package/@pelevesque/elo)
+https://www.npmjs.com/package/@pelevesque/elo
 
 ## Installation
 
