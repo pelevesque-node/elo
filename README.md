@@ -35,7 +35,8 @@ https://www.npmjs.com/package/@pelevesque/elo
 
 ### Initialization
 
-When initializing elo, you can set the k and deviation factors. If not set, the defaults will be `k = 24` and `d = 400`.
+When initializing elo, you can set the k and deviation factors. If not set, the
+defaults will be `k = 24` and `d = 400`.
 
 format: `new Elo(k, d)`
 
@@ -110,7 +111,8 @@ const rating = elo.getRating(2000, 1500, 0.5, 32, 800)
 
 ### Get Outcome
 
-`getOutcome` is elo's most useful method. It returns an object with the rating delta and new rating for both players.
+`getOutcome` is elo's most useful method. It returns an object with the rating
+delta and new rating for both players.
 
 You can optionally override the k and deviation factors set in the constructor.
 
