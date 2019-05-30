@@ -15,6 +15,7 @@
     "url": "git+https://github.com/pelevesque/elo.git"
   },
   "keywords": [
+    "math",
     "elo",
     "rating",
     "arpad",
