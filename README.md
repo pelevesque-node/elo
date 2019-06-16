@@ -131,14 +131,14 @@ const outcomeObject = elo.getOutcome(2000, 1500, 0.5, 32, 800)
 ```js
 // outcome structure example
 {
-    "a" : {
-        "delta"  : 12,
-        "rating" : 2012
-    },
-    "b" : {
-        "delta"  : -12,
-        "rating" : 1988
-    }
+  "a" : {
+    "delta"  : 12,
+    "rating" : 2012
+  },
+  "b" : {
+    "delta"  : -12,
+    "rating" : 1988
+  }
 }
 ```
 
