@@ -4,8 +4,8 @@
 const expect = require('chai').expect
 const Elo = require('../index')
 
-describe('#elo', () => {
-  describe('#constructor()', () => {
+describe('all tests for elo()', () => {
+  describe('constructor()', () => {
     it('should initialize with default options', () => {
       const elo = new Elo()
       expect(elo.options.k).to.equal(24)
@@ -29,7 +29,7 @@ describe('#elo', () => {
     })
   })
 
-  describe('#setOptions()', () => {
+  describe('setOptions()', () => {
     it('should set options', () => {
       const options = {
         k: 44,
@@ -43,7 +43,7 @@ describe('#elo', () => {
     })
   })
 
-  describe('#getExpectedScore()', () => {
+  describe('getExpectedScore()', () => {
     it('should work for same ratings', () => {
       const elo = new Elo()
       const result = elo.getExpectedScore(2000, 2000)
@@ -71,7 +71,7 @@ describe('#elo', () => {
     })
   })
 
-  describe('#getRatingDelta()', () => {
+  describe('getRatingDelta()', () => {
     it('should work for a win', () => {
       const elo = new Elo()
       const result = elo.getRatingDelta(2000, 1600, 1)
@@ -114,7 +114,7 @@ describe('#elo', () => {
     })
   })
 
-  describe('#getRating()', () => {
+  describe('getRating()', () => {
     it('should work for a win', () => {
       const elo = new Elo()
       const result = elo.getRating(1500, 2000, 1)
@@ -145,7 +145,7 @@ describe('#elo', () => {
     })
   })
 
-  describe('#getOutcome()', () => {
+  describe('getOutcome()', () => {
     it('should work for a loss', () => {
       let expected = '{"a":{"delta":-23.264317679238825,"rating":1976.7356823207613},'
       expected += '"b":{"delta":23.264317679238825,"rating":1423.2643176792387}}'
