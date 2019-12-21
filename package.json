@@ -1,6 +1,6 @@
 {
   "name": "@pelevesque/elo",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "Calculates Elo rating.",
   "main": "index.js",
   "scripts": {
