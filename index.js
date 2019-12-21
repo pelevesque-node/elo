@@ -25,20 +25,20 @@ Elo.prototype.getRating = function (ratingA, ratingB, score, k, n) {
 Elo.prototype.getOutcome = function (ratingA, ratingB, score, k, n) {
   const delta = this.getRatingDelta(ratingA, ratingB, score, k, n)
   return {
-    'a': {
-      'delta': delta,
-      'rating': ratingA + delta
+    a: {
+      delta: delta,
+      rating: ratingA + delta
     },
-    'b': {
-      'delta': -delta,
-      'rating': ratingB - delta
+    b: {
+      delta: -delta,
+      rating: ratingB - delta
     }
   }
 }
 
 Elo.prototype._defaultOptions = {
-  'k': 24,
-  'n': 400
+  k: 24,
+  n: 400
 }
 
 module.exports = Elo
