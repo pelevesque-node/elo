@@ -4,7 +4,7 @@
 const expect = require('chai').expect
 const Elo = require('../index')
 
-describe('all tests for elo()', () => {
+describe('#elo()', () => {
   describe('constructor()', () => {
     it('should initialize with default options', () => {
       const elo = new Elo()
